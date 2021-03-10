@@ -2,7 +2,7 @@
 %                Identification
 %-------------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{peter-resume}
+\ProvidesClass{resume}
 \LoadClass{article}
 
 %-------------------------------------------------------------------------------
@@ -126,7 +126,7 @@
 
 % Add option to change the color of the header and titles
 % \define@key[<prefix>]{<family>}{<key>}[<default>]{<function>}
-\define@key{peter-resume.cls}{changecolor}[0, 0, 0]{%
+\define@key{resume.cls}{changecolor}[0, 0, 0]{%
     \definecolor{main}{RGB}{#1}%
 }
 
